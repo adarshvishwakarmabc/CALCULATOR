@@ -67,10 +67,16 @@ button:hover{
     background: gainsboro;
     box-shadow: rgb(204, 219, 232) 3px 5px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
 }
+h1{  
+    background: black;
+    font-size: 40px;
+    padding: 10px 20px;
+    color: darkred;
+}
 </style>
 </head>
 <body>
-
+<h1>Basic Calculator</h1>
 <div id="container">
     <div id="calculator">
         <input id="inputBox" type="text" placeholder="0">
